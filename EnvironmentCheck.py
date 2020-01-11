@@ -42,7 +42,7 @@ def checkCUDAPy3():
     if code == 1:
         nvcc_info = 0
     else:
-        nvcc_info = float(nvcc_info.split("release")[1].split(",").strip())
+        nvcc_info = float(nvcc_info.split("release")[1].split(",")[0].strip())
     return nvcc_info
 
 
@@ -52,7 +52,7 @@ def checkCUDAPy2():
     if code == 1:
         nvcc_info = 0
     else:
-        nvcc_info = float(nvcc_info.split("release")[1].split(",").strip())
+        nvcc_info = float(nvcc_info.split("release")[1].split(",")[0].strip())
     return nvcc_info
 
 

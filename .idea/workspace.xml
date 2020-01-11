@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02290f63-6c75-4508-a31e-07bf8b09cd52" name="Default Changelist" comment="" />
+    <list default="true" id="02290f63-6c75-4508-a31e-07bf8b09cd52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnvironmentCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnvironmentCheck.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,28 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EnvironmentCheck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="213" column="82" lean-forward="true" selection-start-line="213" selection-start-column="82" selection-end-line="213" selection-end-column="82" />
-              <folding>
-                <element signature="e#43#72#0" />
-                <element signature="e#93#139#0" />
-                <element signature="e#242#549#0" />
-                <element signature="e#225#385#0" />
-                <element signature="e#604#909#0" />
-                <element signature="e#562#722#0" />
-                <element signature="e#956#1165#0" />
-                <element signature="e#1214#1421#0" />
-                <element signature="e#1469#1716#0" />
-                <element signature="e#1431#1532#0" />
-                <element signature="e#1766#2011#0" />
-                <element signature="e#1703#1804#0" />
-                <element signature="e#2019#2075#0" />
-                <element signature="e#2221#2405#0" />
-                <element signature="e#2473#2704#0" />
-                <element signature="e#2740#2985#0" />
-                <element signature="e#2742#3218#0" />
-                <element signature="e#3262#4025#0" />
-              </folding>
+            <state relative-caret-position="-3510">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -47,6 +31,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,11 +49,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="951" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -87,6 +75,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -117,9 +106,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -145,17 +134,18 @@
       <updated>1578758292116</updated>
       <workItem from="1578758293420" duration="7403000" />
       <workItem from="1578765986944" duration="4491000" />
+      <workItem from="1578770516228" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11894000" />
+    <option name="totallyTimeSpent" value="12474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1878453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,54 +198,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyTorchCheck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" selection-start-line="25" selection-start-column="4" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CheckPy2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" selection-start-line="36" selection-end-line="44" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CheckPy3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="36" selection-start-line="36" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PyTorchCheck.py" />
+    <entry file="file://$PROJECT_DIR$/CheckPy2.py" />
+    <entry file="file://$PROJECT_DIR$/CheckPy3.py" />
     <entry file="file://$PROJECT_DIR$/EnvironmentCheck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="213" column="82" lean-forward="true" selection-start-line="213" selection-start-column="82" selection-end-line="213" selection-end-column="82" />
-          <folding>
-            <element signature="e#43#72#0" />
-            <element signature="e#93#139#0" />
-            <element signature="e#242#549#0" />
-            <element signature="e#225#385#0" />
-            <element signature="e#604#909#0" />
-            <element signature="e#562#722#0" />
-            <element signature="e#956#1165#0" />
-            <element signature="e#1214#1421#0" />
-            <element signature="e#1469#1716#0" />
-            <element signature="e#1431#1532#0" />
-            <element signature="e#1766#2011#0" />
-            <element signature="e#1703#1804#0" />
-            <element signature="e#2019#2075#0" />
-            <element signature="e#2221#2405#0" />
-            <element signature="e#2473#2704#0" />
-            <element signature="e#2740#2985#0" />
-            <element signature="e#2742#3218#0" />
-            <element signature="e#3262#4025#0" />
-          </folding>
+        <state relative-caret-position="-3510">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
