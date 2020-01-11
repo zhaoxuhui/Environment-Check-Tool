@@ -221,7 +221,7 @@ if __name__ == '__main__':
     print("* Disk total size:" + disk_size + " GB")
     print("* Disk partion info:")
     if type(disk_info) is str:
-        print("  "+disk_info)
+        print("  " + disk_info)
     else:
         print("  Identifier\tTotal size(GB)\tUsage(percentage)\tFile format")
         for i in range(len(disk_info)):
