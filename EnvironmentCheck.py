@@ -209,13 +209,23 @@ if __name__ == '__main__':
     print("======================Hardware Information======================")
     print("* CPU kernel:" + cpu_count)
     print("* CPU base frequency:" + cpu_freq + " GHz")
-    print("* CPU use percentage(current,every kernel):\n" + "  " + str(cpu_usage))
+    if type(cpu_usage) is str:
+        print("* CPU use percentage(current,every kernel):\n  " + cpu_usage)
+    else:
+        print("* CPU use percentage(current,every kernel):\n  " + str(cpu_usage))
     print("* Memory total size:" + mem_size + " GB")
-    print("* Memory use percentage(current):" + mem_usage[0] + "%, free:" + mem_usage[1] + " GB")
+    if type(mem_usage) is str:
+        print("* Memory use percentage(current):" + mem_usage)
+    else:
+        print("* Memory use percentage(current):" + mem_usage[0] + "%, free:" + mem_usage[1] + " GB")
     print("* Disk total size:" + disk_size + " GB")
     print("* Disk partion info:")
-    print("  Identifier\tTotal size(GB)\tUsage(percentage)\tFile format")
-    for i in range(len(disk_info)):
-        print("  " + disk_info[0][i] + "\t\t\t" + str(disk_info[1][i]) + "\t\t\t" + str(disk_info[2][i]) + "\t\t\t\t" +
-              disk_info[3][i])
+    if type(disk_info) is str:
+        print(disk_info)
+    else:
+        print("  Identifier\tTotal size(GB)\tUsage(percentage)\tFile format")
+        for i in range(len(disk_info)):
+            print("  " + disk_info[0][i] + "\t\t\t" + str(disk_info[1][i]) + "\t\t\t" + str(
+                disk_info[2][i]) + "\t\t\t\t" +
+                  disk_info[3][i])
     print("======================Hardware Information======================")
