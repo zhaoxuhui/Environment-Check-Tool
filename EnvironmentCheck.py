@@ -1,6 +1,5 @@
 import sys
 import platform
-import psutil
 
 
 def checkPythonVersion():
