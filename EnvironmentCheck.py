@@ -1,6 +1,5 @@
 import sys
 import platform
-import psutil
 
 
 def checkPythonVersion():
@@ -15,7 +14,7 @@ def checkOS():
 def checkPipVersionPy3():
     import subprocess
     code, pip_version = subprocess.getstatusoutput("pip --version")
-    if code == 1:
+    if code != 0:
         pip_version = 0
     else:
         pip_version = pip_version.split("pip")[1].split("from")[0].strip()
@@ -27,7 +26,7 @@ def checkPipVersionPy3():
 def checkPipVersionPy2():
     import commands
     code, pip_version = commands.getstatusoutput("pip --version")
-    if code == 1:
+    if code != 0:
         pip_version = 0
     else:
         pip_version = pip_version.split("pip")[1].split("from")[0].strip()
@@ -39,7 +38,7 @@ def checkPipVersionPy2():
 def checkCUDAPy3():
     import subprocess
     code, nvcc_info = subprocess.getstatusoutput("nvcc --version")
-    if code == 1:
+    if code != 0:
         nvcc_info = 0
     else:
         nvcc_info = float(nvcc_info.split("release")[1].split(",")[0].strip())
@@ -49,7 +48,7 @@ def checkCUDAPy3():
 def checkCUDAPy2():
     import commands
     code, nvcc_info = commands.getstatusoutput("nvcc --version")
-    if code == 1:
+    if code != 0:
         nvcc_info = 0
     else:
         nvcc_info = float(nvcc_info.split("release")[1].split(",")[0].strip())
@@ -59,7 +58,7 @@ def checkCUDAPy2():
 def checkCondaPy3():
     import subprocess
     code, conda_info = subprocess.getstatusoutput("conda --version")
-    if code == 1:
+    if code != 0:
         conda_info = 0
     else:
         parts = conda_info.split("conda")[1].split(".")
@@ -70,7 +69,7 @@ def checkCondaPy3():
 def checkCondaPy2():
     import commands
     code, conda_info = commands.getstatusoutput("conda --version")
-    if code == 1:
+    if code != 0:
         conda_info = 0
     else:
         parts = conda_info.split("conda")[1].split(".")
