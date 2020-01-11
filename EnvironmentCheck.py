@@ -127,20 +127,19 @@ def memInfo():
 
 
 def diskSize():
-    import psutil
-    disk_size = []
-    for item in psutil.disk_partitions():
-        mountpoint = item[1]
-        opts = item[3]
-        if opts == 'cdrom':
-            continue
-        size = psutil.disk_usage(mountpoint)
-        size = round(float(size[0]) / pow(1024, 3), 2)
-        disk_size.append(size)
-    total_size = round(sum(disk_size), 2)
-    return str(total_size)
     try:
-        pass
+        import psutil
+        disk_size = []
+        for item in psutil.disk_partitions():
+            mountpoint = item[1]
+            opts = item[3]
+            if opts == 'cdrom':
+                continue
+            size = psutil.disk_usage(mountpoint)
+            size = round(float(size[0]) / pow(1024, 3), 2)
+            disk_size.append(size)
+        total_size = round(sum(disk_size), 2)
+        return str(total_size)
     except:
         return "No 'psutil' on your computer,install it with 'pip install psutil'"
 
